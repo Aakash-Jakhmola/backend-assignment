@@ -44,7 +44,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Configure app
 
-Create `.env` file in the root. You will need a API KEY for moralis.
+Create `.env` file in the root. You will need a API KEY for [Moralis](https://moralis.io/).
 Contents should be 
 
   `API_KEY=<Your api key>`
