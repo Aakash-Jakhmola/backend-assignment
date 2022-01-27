@@ -1,6 +1,16 @@
 # backend-assignment
 
 
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Install](#install)
+- [Configure App](#configure-app)
+- [Running the project](#running-the-app)
+- [Documentation](#documentation)
+
+
+<a name="requirements"/>
 ## Requirements
 
 For development, you will only need Node.js and a node global package, npm, installed in your environement.
@@ -36,12 +46,15 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ---
 
+<a name="install"/>
 ## Install
 
     $ git clone https://github.com/Aakash-Jakhmola/backend-assignment.git
     $ cd backend-assignment
     $ npm install
 
+
+<a name="configure-app"/>
 ## Configure app
 
 Create `.env` file in the root. You will need a API KEY for [Moralis](https://moralis.io/).
@@ -49,8 +62,11 @@ Contents should be
 
   `API_KEY=<Your api key>`
 
-
+<a name="running-the-project"/>
 ## Running the project
 
     $ npm start
+
+<a name="documentation"/>
+## Documentation
 
