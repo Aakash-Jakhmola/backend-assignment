@@ -105,7 +105,7 @@ I have used [Moralis Web 3 Api](https://admin.moralis.io/web3Api#) to get the to
   }
   ```
   
-  Note: If address is not valid, then the response will be return empty list.
+  Note: If address is not valid, then the response will be empty list.
   
   
  2. GET /tokens/:ethaddress
@@ -127,4 +127,4 @@ I have used [Moralis Web 3 Api](https://admin.moralis.io/web3Api#) to get the to
     }
     ```
     
-    Note: If address is not valid, then the response will be return empty list.
+    Note: If address is not valid, then the response will be empty list.
