@@ -89,7 +89,8 @@ I have used [Moralis Web 3 Api](https://admin.moralis.io/web3Api#) to get the to
   - limit   (optional)  integerstring
     
   Response Format 
-  `{
+  ```
+  {
     success: boolean,
     nfts: [ 
             {
@@ -101,7 +102,8 @@ I have used [Moralis Web 3 Api](https://admin.moralis.io/web3Api#) to get the to
             }
           ]
     message: string
-  }`
+  }
+  ```
   
   Note: If address is not valid, then the response will be return empty list.
   
@@ -111,7 +113,7 @@ I have used [Moralis Web 3 Api](https://admin.moralis.io/web3Api#) to get the to
     Moralis API used: https://deep-index.moralis.io/api/v2/:ethaddress/erc20?chain=eth
     
     Response Format
-    `
+    ```
     {
       success: boolean,
       tokens: [
@@ -123,6 +125,6 @@ I have used [Moralis Web 3 Api](https://admin.moralis.io/web3Api#) to get the to
                 }
               ]
     }
-    `
+    ```
     
     Note: If address is not valid, then the response will be return empty list.
