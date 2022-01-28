@@ -79,3 +79,50 @@ Contents should be
 ### Documentation
 
 I have used [Moralis Web 3 Api](https://admin.moralis.io/web3Api#) to get the tokens and nfs. 
+
+1. GET /nfts/:ethaddress
+  
+  Moralis API used: https://deep-index.moralis.io/api/v2/:ethaddress/nft?chain=eth
+  
+  Parameters : 
+  - offset  (optional)  integerstring
+  - limit   (optional)  integerstring
+    
+  Response Format 
+  `{
+    success: boolean,
+    nfts: [ 
+            {
+              tokenId: string,
+              contractAddress: string,
+              image: string,
+              name: string,
+              description: string
+            }
+          ]
+    message: string
+  }`
+  
+  Note: If address is not valid, then the response will be return empty list.
+  
+  
+ 2. GET /tokens/:ethaddress
+    
+    Moralis API used: https://deep-index.moralis.io/api/v2/:ethaddress/erc20?chain=eth
+    
+    Response Format
+    `
+    {
+      success: boolean,
+      tokens: [
+                {
+                  contractAddress: string,
+                  name: string,
+                  logo: string,
+                  balance: string,
+                }
+              ]
+    }
+    `
+    
+    Note: If address is not valid, then the response will be return empty list.
