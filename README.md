@@ -84,7 +84,7 @@ I have used [Moralis Web 3 Api](https://admin.moralis.io/web3Api#) to get the to
   
   Moralis API used: https://deep-index.moralis.io/api/v2/:ethaddress/nft?chain=eth
   
-  Parameters : 
+  Request Parameters : 
   - offset  (optional)  integerstring
   - limit   (optional)  integerstring
     
@@ -107,6 +107,7 @@ I have used [Moralis Web 3 Api](https://admin.moralis.io/web3Api#) to get the to
   
   Note: If address is not valid, then the response will be empty list.
   
+  <br/>
   
  2. GET /tokens/:ethaddress
     
